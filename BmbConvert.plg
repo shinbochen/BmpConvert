@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BmbConvert - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/BmbConvert.res" /d "_DEBUG" /d "_AFXDLL" "C:\PrivateData\VCData\BmbConvert\BmbConvert.rc"" 
+Creating temporary file "C:\Users\shinbo\AppData\Local\Temp\RSP603F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/BmbConvert.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\PrivateData\VCData\BmbConvert\BmbConvert.cpp"
+"C:\PrivateData\VCData\BmbConvert\BmbConvertDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\shinbo\AppData\Local\Temp\RSP603F.tmp" 
+Creating temporary file "C:\Users\shinbo\AppData\Local\Temp\RSP6040.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/BmbConvert.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\PrivateData\VCData\BmbConvert\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\shinbo\AppData\Local\Temp\RSP6040.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/BmbConvert.pdb" /debug /machine:I386 /out:"Debug/BmbConvert.exe" /pdbtype:sept  .\Debug\BmbConvert.obj .\Debug\BmbConvertDlg.obj .\Debug\StdAfx.obj .\Debug\BmbConvert.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BmbConvert.cpp
+BmbConvertDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+BmbConvert.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
